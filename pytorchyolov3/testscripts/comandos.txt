@@ -1,0 +1,11 @@
+import sys
+
+        try:
+            base_path= sys._MEIPASS
+        except Exception:
+            base_path=os.path.abspath(".")
+        
+
+
+        path1 = os.path.join(base_path, "imagen1.jpeg")
+        path2 = os.path.join(base_path, "imagen2.jpeg")
